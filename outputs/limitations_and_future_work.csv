@@ -1,0 +1,6 @@
+area,limitation,future_work
+Simulated internal data,"The internal communication dataset is simulated and may not fully represent the complexity, ambiguity, and noise of real internal messages.","Replace simulated messages with anonymised real internal communications where available, subject to privacy and compliance constraints."
+Ground truth,The project does not include confirmed real insider trading labels.,Evaluate against historical enforcement cases or expert-labelled compliance review examples.
+Sentiment model,FinBERT performs better on public financial news than on informal internal-style text.,Fine-tune a sentiment model on labelled internal communication data.
+Event/entity extraction,Current event and aspect extraction remains partly rule-based.,Upgrade to a supervised transformer-based event/entity extraction model.
+Narrative matching,Current internal-public alignment relies on linked document identifiers created during simulation.,"Use entity overlap, event similarity, and temporal proximity to match real internal and public narratives."
